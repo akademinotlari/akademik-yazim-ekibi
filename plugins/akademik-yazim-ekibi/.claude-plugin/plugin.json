@@ -1,0 +1,19 @@
+{
+  "name": "akademik-yazim-ekibi",
+  "version": "2.0.0",
+  "description": "Konudan gönderime hazır makale, bildiri, kitap bölümü ya da proje metnine kadar çok ajanlı akademik yazım ekibi: literatür taraması ve atıf doğrulama, analiz, yazım, iç hakem süreci ve son kontrol.",
+  "author": {
+    "name": "Şeyma Sünbül"
+  },
+  "license": "MIT",
+  "keywords": [
+    "akademik yazım",
+    "literatür taraması",
+    "atıf doğrulama",
+    "hakem",
+    "makale",
+    "academic writing"
+  ],
+  "homepage": "https://github.com/akademinotlari/akademik-yazim-ekibi",
+  "repository": "https://github.com/akademinotlari/akademik-yazim-ekibi"
+}

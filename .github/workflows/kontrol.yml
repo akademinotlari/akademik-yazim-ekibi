@@ -1,0 +1,13 @@
+name: kontrol
+on: [push, pull_request]
+jobs:
+  kontrol:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Kopyalar ortak/ ile aynı mı
+        run: bash tools/senkronize.sh --kontrol
+      - name: Betikler derleniyor mu
+        run: python3 -m py_compile ortak/*.py plugins/akademik-yazim-ekibi/skills/ay-hakem-teslim/references/mekanik_kontrol.py
+      - name: Manifest ve paketleme denetimi
+        run: bash tools/paketle.sh

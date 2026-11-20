@@ -1,0 +1,15 @@
+{
+  "name": "akademik-yazim",
+  "description": "Türkçe ve İngilizce akademik yayın için çok ajanlı yazım ekibi",
+  "owner": {
+    "name": "Şeyma Sünbül",
+    "url": "https://github.com/akademinotlari"
+  },
+  "plugins": [
+    {
+      "name": "akademik-yazim-ekibi",
+      "source": "./plugins/akademik-yazim-ekibi",
+      "description": "Konudan gönderime hazır makale, bildiri, kitap bölümü ya da proje metnine: literatür taraması ve atıf doğrulama, analiz, yazım, iç hakem süreci ve son kontrol. Görevler zorluğuna göre haiku, sonnet ve opus arasında paylaştırılır."
+    }
+  ]
+}
